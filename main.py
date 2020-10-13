@@ -18,7 +18,7 @@ def main_menu():
         print("2. View member")
         print("3. Edit member")
         print("4. Delete member")
-        print("5. Exit")
+        print("5. Exit This Program")
         
         choice = int(input("Please choose an option: "))
 
