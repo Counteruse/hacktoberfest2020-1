@@ -34,7 +34,9 @@ def main_menu():
             4: delete,
         }
 
-        
+        func = switcher.get(choice, print_error)
+        print("\n")
+        func()
 
 def main():
     main_menu()
